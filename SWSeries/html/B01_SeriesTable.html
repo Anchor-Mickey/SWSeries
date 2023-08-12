@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="スターウォーズシリーズの一覧です">
+        <title>SWSeries一覧</title>
+        <link rel="stylesheet" href="../css/B01_SeriesTable.css">
+        
+    </head>
+<body>
+  <div class="B01_body">
+    <div class="header">
+        <div class="header_title">
+          STAR WARS シリーズ一覧
+        </div>
+        <button class="logOffBtn" onClick="logOff()">LOG OFF</button>
+    </div>
+      
+      
+      
+      <div class="main">
+        
+        <div class="action_area">
+          <div class="search">
+            <input type="text" placeholder="タイトルで検索">
+            <button class="searchBtn">検索</button>
+          </div>
+          <button class="createNewBtn" onClick="newCreate()">新規作成</button>
+        </div>
+      
+        <div class="main_contents">
+          <table>
+            <tr>
+              <th id="volume">巻数</th>
+              <th id="title">タイトル</th>
+              <th id="release">発売日</th>
+              <th id="synopsis">あらすじ</th>
+            </tr>
+         </table>
+          
+      
+        </div>
+        
+      </div>
+    </div>
+      <script src="../js/B01_SeriesTable.js"></script>
+</body>
+</html>

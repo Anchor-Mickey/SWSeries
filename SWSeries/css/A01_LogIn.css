@@ -1,0 +1,96 @@
+.A01_body {
+    width: 100%;
+    height: 100svh;
+    margin: 0;
+    font-size: 14px;
+    background-image: url("../images/A01.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+  }
+  .A01_container {
+    width: 100%;
+    height: 100svh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+  
+  .A01_inputArea {
+    width: 500px;
+    height: 270px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid whitesmoke;
+    background: hsl(1,100%,100%,0.3);
+    backdrop-filter:blur(20px);
+  }
+  
+  .A01_idArea {
+    width: 80%;
+    height: 110px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  /*   border: 1px solid whitesmoke; */
+  }
+  
+  .A01_title {
+    width: 100%;
+    height: 35px;
+    display: grid;
+    place-items: center start;
+  /*   border: 1px solid whitesmoke; */
+  }
+  
+  #A01_login_Id {
+    width: 100%;
+    height: 35px;
+    display: grid;
+    place-items: center start;
+  /*   border: 1px solid whitesmoke; */
+  }
+  
+  .A01_passwordArea {
+    width: 80%;
+    height: 110px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  /*   border: 1px solid whitesmoke; */
+  }
+  
+  #A01_password {
+    width: 100%;
+    height: 35px;
+    display: grid;
+    place-items: center start;
+  /*   border: 1px solid whitesmoke; */
+  }
+  
+  .A01_button {
+    width: 80%;
+    height: 60px;
+    display: flex;
+    align-items: start;
+    justify-content: flex-end;
+  /*   border: 1px solid whitesmoke;  */
+  }
+  
+  .A01_loginBtn {
+    width: 100px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #0CA789;
+    border: none;
+    color: white;
+  }
+  

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="スターウォーズシリーズ一覧">
+        <title>SWSeries新規記事作成</title>
+        <link rel="stylesheet" href="../css/C.css">
+    </head>
+<body>
+  <div class="C_body">
+    <div class="C_header">
+        <div class="C_header_title">
+          STAR WARS シリーズ 記事作成
+        </div>
+      </div>
+      
+      <div class="C_container">
+      
+        <div class="C_main">
+          <div class="C_item_row">
+            <div class="C_item_name" ><label for="volume">EpisodeNO.</label></div>
+            <input type="text" id="C_volume" name="volume" placeholder="EpisodeNO.を入力">
+          </div>
+          
+          <div class="C_item_row">
+            <div class="C_item_name"><label for="title">タイトル</label></div>
+            <input type="text" id="C_title" name="title" placeholder="タイトルを入力">
+          </div>
+          
+          <div class="C_item_row">
+            <div class="C_item_name"><label for="release">公開日</label></div>
+            <input type="date" id="C_release" name="release">
+          </div>
+          
+          <div class="C_item_row" id="C_synopsis_wrap">
+            <div class="C_item_name">あらすじ</div>
+            <textarea id="C_synopsis" name="synopsis" placeholder="あらすじを入力"></textarea>
+          </div>
+          
+          <div class="C_button_area">
+            <button class="C_cancelBtn"onclick="cancel()">キャンセル</button>
+            <button class="C_saveBtn" onclick="save()">保存</button>
+            <button class="C_saveBtn" onclick="back()">一覧へ戻る</button>
+          </div>
+          
+          
+        </div>
+      
+      </div>
+  </div>
+  <script src="../js/C01_New.js"></script>
+</body>
+</html>

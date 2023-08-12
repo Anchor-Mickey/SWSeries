@@ -1,0 +1,124 @@
+
+  
+  .C_body {
+    width: 100%;
+    height: 100svh;
+    margin: 0;
+    font-size: 14px;
+  }
+  
+
+  
+  .C_header {
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;;
+    padding: 0 1rem;
+    box-sizing: border-box;
+    background-color: #0CA789;
+    color: white;
+  }
+  
+  .C_container {
+    width: 100%;
+    height: calc(100svh - 60px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  
+  .C_main {
+    width: 80%;
+    max-width: 800px;
+    height: calc(100svh - 120px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1em;
+  }
+  
+  .C_item_row{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    gap: 1em;
+  }
+  
+  .C_item_name {
+    width: 20%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+  
+  input {
+    flex: 0.4;
+    min-width: 180px;
+    height: 50px;
+    padding: 0 1rem;
+    box-sizing: border-box;
+    background-color: whitesmoke;
+    border: none;
+    border-radius: 6px;
+    color: gray;
+  }
+  
+  #C_title {
+    flex: 1;
+  }
+  
+  #C_synopsis_wrap {
+    height: 230px;
+  }
+  
+  #C_synopsis {
+    height: 200px;
+    display: flex;
+    align-items: start;
+    padding: 1rem;
+    box-sizing: border-box;
+    
+  }
+  
+  textarea {
+    flex: 1;
+    padding: 1rem;
+    border: none;
+    border-radius: 6px;
+    background-color: whitesmoke;
+    resize: none;
+    color: gray;
+  }
+  
+  .C_button_area {
+    width: 80%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 1em;
+  }
+  
+  button {
+    width: 100px;
+    height: 30px;
+    display: grid;
+    align-items: center;
+  }
+  
+  .C_cancelBtn {
+    background-color: white;
+    color: #0CA789;
+    border: 1px solid #0CA789;
+  }
+  
+  .C_saveBtn {
+    background-color: #0CA789;
+    color: whitesmoke;
+    border: none;
+  }
