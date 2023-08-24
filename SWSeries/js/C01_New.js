@@ -5,7 +5,7 @@ const title = document.getElementById('C_title');//タイトル
 const release = document.getElementById('C_release');//発売日
 const synopsis = document.getElementById('C_synopsis');//あらすじ
 
-const list = []; //内容を配列 listとして宣言
+let list = []; //内容を配列 listとして宣言
 
 function save() {
   console.log("クリックされました"); 

@@ -1,0 +1,96 @@
+
+  a {
+    margin: 0.5em;
+  }
+  
+  main {
+    width: 100%;
+    margin: 0 auto;
+    padding: 10px;
+    box-shadow: 0 0 10px 0 lightgray;
+  }
+  
+  input,
+  select {
+    margin: 0.5em;
+  }
+  
+  table {
+    margin-top: 1em;
+    border: solid 2px gray;
+    border-collapse: collapse;
+  }
+  
+  th,
+  td {
+    border: solid 2px gray;
+    border-collapse: collapse;
+  }
+  
+  th {
+    padding: 0.5em;
+    background-color: #949495;
+  }
+  
+  th#todoLabel {
+    width: 200px;
+  }
+  
+  th#dateLabel {
+    width: 100px;
+  }
+  
+  td {
+    text-align: center;
+  }
+  
+  td input[type="checkbox"] {
+    margin: 0;
+  }
+  
+  button#submit {
+    margin-top: 0.5em;
+    background-color: #888084;
+  }
+  
+  button#priority_h {
+    margin-top: 0.5em;
+    background-color: #7058a3;
+  }
+  
+  button#priority_m {
+    margin-top: 0.5em;
+    background-color: #a59aca;
+  }
+  
+  button#priority_l {
+    margin-top: 0.5em;
+    background-color: #dbd0e6;
+  }
+  
+  button#remove {
+    margin-top: 0.5em;
+    background-color: #a22041;
+  }
+  
+  button#reload {
+    margin-top: 0.5em;
+    background-color: #660033;
+  }
+  
+  button {
+    border-radius: 6px;
+    border: 1px solid silver;
+    color: gray;
+  }
+  
+  #go_list {
+    border-radius: 6px;
+    border: 1px solid silver;
+    color: gray;
+  }
+
+  .back_button {
+    margin-top: 1em;
+  }
+

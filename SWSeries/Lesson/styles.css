@@ -1,0 +1,28 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    margin: 10px 0;
+  }
+  
+  #edit-form {
+    margin-top: 10px;
+  }
+  
+  #edit-input {
+    width: 200px;
+  }
+  
+  #save-btn {
+    margin-left: 10px;
+  }
+
+  #edit-page {
+    margin-top: 20px;
+  }
